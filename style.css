@@ -1,0 +1,129 @@
+/* style.css - Shifa Clinic Theme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #0077b6, #0096c7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #ffdd00;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.chat-box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+#chatOutput {
+    height: 450px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+input, button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background: #023e7d;
+}
+
+footer {
+    background: #023e7d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.btn {
+    background-color: #007bff; /* blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #0056b3; /* dark blue on hover */
+}
+#chatOutput a {
+    color: #28a745;
+    font-weight: bold;
+    text-decoration: none;
+}
+#chatOutput a:hover {
+    text-decoration: underline;
+}
+.action-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.approve { background: #28a745; } /* green */
+.delete { background: #dc3545; } /* red */
+.approve:hover { background: #218838; }
+.delete:hover { background: #c82333; }
